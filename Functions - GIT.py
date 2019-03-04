@@ -98,3 +98,9 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('Hello Computer Scientists', 4)
+
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('Hello Computer Scientists', 4)
