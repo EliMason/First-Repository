@@ -119,6 +119,7 @@ except ValueError:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> Enter_Name_And_Age
@@ -141,3 +142,24 @@ print('Age:', age)
 =======
 print('Age:', age) 
 >>>>>>> Enter_Name_And_Age
+=======
+# 4.16.6: Temperature Converter
+# Eli Mason
+# 2.20.20
+
+def celcius_to_fahrenheit(celsius):
+    return celsius * 1.8 + 32
+
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit -32) / 1.8
+
+try:
+    c = float(input('Enter a temp in celsius: '))
+    print('In F:', round(celcius_to_fahrenheit(c), 2))
+
+    f = float(input('Enter a temp in F: '))
+    print('In C:', round(fahrenheit_to_celsius(f), 2))
+
+except ValueError:
+    print('You must enter a float'
+>>>>>>> Temperature_Converter
