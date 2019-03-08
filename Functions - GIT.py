@@ -118,10 +118,6 @@ except ValueError:
     print('That was not an integer')
 
 
-<<<<<<< HEAD
-
-=======git
->>>>>>> Enter_Name_And_Age
 # 4.16.4: Enter Name & Age
 # Eli Mason
 # 2.20.19
@@ -136,8 +132,7 @@ except ValueError:
     print('That was not a valid age')
 
 print('\n''Name:', name)
-<<<<<<< HEAD
 print('Age:', age)
-=======
-print('Age:', age) 
->>>>>>> Enter_Name_And_Age
+print('Age:', age)
+
+
