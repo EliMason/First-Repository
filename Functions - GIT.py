@@ -118,8 +118,11 @@ except ValueError:
     print('That was not an integer')
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> test-master
 # 4.16.4: Enter Name & Age
 # Eli Mason
 # 2.20.19
@@ -131,10 +134,12 @@ age = -1
 try:
     age = int(input('Enter your age: '))
 except ValueError:
+<<<<<<< HEAD
     print('That was not a valid age')
 
 print('\n''Name:', name)
 print('Age:', age)
+<<<<<<< HEAD
 
 
 # 4.16.6: Temperature Converter
@@ -157,3 +162,9 @@ try:
 except ValueError:
     print('You must enter a float' 
 
+=======
+print('Age:', age)
+=======
+    print('You must enter a float')
+>>>>>>> Temperature_Converter
+>>>>>>> test-master
