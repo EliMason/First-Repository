@@ -134,5 +134,3 @@ except ValueError:
 print('\n''Name:', name)
 print('Age:', age)
 print('Age:', age)
-
-
